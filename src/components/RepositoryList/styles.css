@@ -1,0 +1,28 @@
+.item-repository {
+  background-color: white;
+  padding: 30px 20px;
+  margin: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.item-repository a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 2.4em;
+  font-weight: bold;
+  color: #546e7a;
+}
+
+.item-repository a:hover {
+  transition: 0.8s;
+  color: #37474f;
+}
+
+.title-repositories {
+  margin: 20px 30px;
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #546e7a;
+}

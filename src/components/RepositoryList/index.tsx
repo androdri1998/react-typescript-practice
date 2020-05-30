@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import "./styles.css";
+
+import config from "../../config.json";
 import RepositoryItem from "./RepositoryItem";
 import { IProps } from "./types";
 import { IApplicationState } from "../../store/ducks/rootReducer";
@@ -17,6 +20,7 @@ const RepositoryList: React.FC<IProps> = () => {
 
   return (
     <div>
+      <p className="title-repositories">{config.name}'s repositories</p>
       {repositories.map((repository, index) => (
         <RepositoryItem key={index} repository={repository} />
       ))}

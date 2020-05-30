@@ -7,6 +7,7 @@ export enum RepositoriesTypes {
 export interface IRepository {
   id: number;
   name: string;
+  html_url: string;
 }
 
 export interface IRepositoriesState {
