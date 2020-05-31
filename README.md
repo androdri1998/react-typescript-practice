@@ -3,6 +3,9 @@ This project aims to practice React written in typescript, this application
 is a Front-end application with functionality to list a user's repositories configured in `config.json`.  
   
 This application is just a application of studies.  
+
+## Desktop layout  
+![Desktop](/layout/desktop_screen.png)
   
 ## Requirements  
 To set up a file named as `config.json`, there is a example setting in `config.example.json`.
