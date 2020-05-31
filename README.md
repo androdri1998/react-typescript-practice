@@ -1,7 +1,25 @@
+# react-typescript-practice  
+This project aims to practice React written in typescript, this application  
+is a Front-end application with functionality to list a user's repositories configured in `config.json`.  
+  
+This application is just a application of studies.  
+  
+## Requirements  
+To set up a file named as `config.json`, there is a example setting in `config.example.json`.
+```
+{
+  "name": "NAME",
+  "username": "USERNAME_GITHUB"
+}
+
+```  
+`name` is used to show in header of the application.  
+`username` is used to search repositories from Github's API.  
+  
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `yarn start`
